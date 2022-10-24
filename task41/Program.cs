@@ -11,6 +11,7 @@ Clear();
 Write("Введите числа на ваше усмотрение: ");
 string[] numbers = (ReadLine()!).Split(" ", StringSplitOptions.RemoveEmptyEntries);
 int result = AmountOfNumbers(numbers);
+
 WriteLine($"Количество введённых чисел больше 0 ввёл пользователь = {result}");
 
 
